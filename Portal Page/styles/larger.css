@@ -1,0 +1,39 @@
+@media only screen and (min-width: 600px){
+
+img{
+    float: left;
+    margin-top: -2.5em;
+}
+
+h2 {
+    padding: .5em;
+    text-align: left;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    border-bottom: solid rgb(65, 64, 64);
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 7em 11em 13em;
+    margin-left: auto;
+    
+}
+#learning{
+    grid-row:2/4;
+    grid-column: 1/2;
+    line-height: 1.75em;
+}
+#project{
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+#info{
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+footer{
+    padding-left: 11em;
+}
+}
