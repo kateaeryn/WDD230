@@ -1,35 +1,36 @@
 body{
-    background-color: whitesmoke;
+    background-color: #E6DCD3;
     font-Family: 'Anybody', cursive;
 }
 
 nav{
     display: flex;
-    justify-content: right;
-    background-color: rgb(93, 102, 91);
+    background-color: #74694D;
     align-items: center;
-    gap: 3em;
-    flex-direction: row-reverse;
-    font-size: 1em;
-    padding: 1em;
+    justify-content: center;
+    gap: .5em;
+    flex-direction: column;
+    font-size: 1.5em;
+    padding: .5em;
+
 }
+
 img{
     float: center;
-    margin-top: -2.5em;
+    margin-top: 1em;
 }
 a.nav-link{
-    color: whitesmoke;
+    color: #E6DCD3;
 }
 
 svg{
-    fill: whitesmoke;
-    padding-right: 3em;
+    fill: #E6DCD3;
 }
 header{
    text-align: center;
-   background-color: rgb(250, 241, 228);
+   background-color: #DCB499;
    font-size: 1.5em;
-   padding: 2em;
+   
 }
 
 main{
@@ -50,8 +51,8 @@ ul{
     
 }
 h3{
-    background-color: rgb(93, 102, 91);
-    color: whitesmoke;
+    background-color: #74694D;
+    color:#E6DCD3;
     font-size: 1.5em;
     padding: 1em;
     margin-top: 0;
@@ -62,9 +63,11 @@ h3{
     border-radius: 1em;
     box-shadow: 0 0 20px #000;
     font-size: 1em;
+    font-weight: 600;
     line-height: 1.5em;
     margin: 1em;
     padding-bottom: 1em;
+    background-color: whitesmoke;
 }
 #project-link{
     padding-left: 2em;
@@ -74,8 +77,8 @@ h3{
 }
 footer{
     text-align: center;
-    background-color: rgb(93, 102, 91);
+    background-color: #74694D;
     font-size: 18px;
-    color: whitesmoke;
+    color: #E6DCD3;
     line-height: 1.5em;
 }

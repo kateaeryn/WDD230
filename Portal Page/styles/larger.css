@@ -1,10 +1,22 @@
 @media only screen and (min-width: 600px){
 
+    nav{
+        flex-direction: row-reverse;
+        justify-content: right;
+        gap: 3em;
+        font-size: 1.5em;
+    }
+
+svg{
+    padding-right: 3em;
+}
 img{
     float: left;
     margin-top: -2.5em;
 }
-
+header{
+    padding: 2em;
+}
 h2 {
     padding: .5em;
     text-align: left;
