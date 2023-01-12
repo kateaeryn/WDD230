@@ -1,0 +1,87 @@
+:root{
+     --primary-color: #006494;
+    --secondary-color: #ffffff;
+    --accent1-color: #ee964B;
+    --accent2-color: #73956F;
+    --accent3-color: #7C6354;
+
+    --heading-font: "DM Serif Display", serif;
+    --paragraph-font: "Roboto", sans-serif;
+}
+
+body{
+    color: var(--accent3-color);
+    font-family: "Roboto", serif;
+}
+
+nav {
+    padding: 1em;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: right;
+}
+
+svg {
+    display: block;
+    fill: var(--secondary-color);
+
+}
+
+ul.navbar {
+    padding: 0;
+    text-align: center;
+
+}
+
+li.hamburger {
+    display: flex;
+    justify-content: center;
+
+}
+
+.nav-menu li a {
+    display: block;
+    align-items: center;
+
+}
+
+a.nav-link {
+    color: #E6DCD3;
+    font-size: 1.5em;
+    margin: .35em;
+}
+
+li a.nav-link {
+    display: none;
+}
+
+li a.nav-link.open {
+    display: block;
+}
+
+.close::before {
+    content: "\2716";
+    color: var(--link-color);
+    font-size: 2em;
+    font-weight: 700;
+}
+header{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: .5em;
+    font-size: 2em;
+    
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--heading-font);
+}
+p{
+    font-family: var(--paragraph-font);
+}
+h2{
+    color: var(--accent3-color);
+}
+ul{
+    list-style-type: none;
+}
