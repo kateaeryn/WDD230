@@ -30,7 +30,8 @@ svg {
 ul.navbar {
     padding: 0;
     text-align: center;
-
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 li.hamburger {
@@ -42,26 +43,27 @@ li.hamburger {
 .nav-menu li a {
     display: block;
     align-items: center;
-
+    
 }
 
 a.nav-link {
-    color: #E6DCD3;
+    color: var(--secondary-color);
     font-size: 1.5em;
     margin: .35em;
 }
 
 li a.nav-link {
-    display: none;
+    /*display: none;*/
 }
 
 li a.nav-link.open {
-    display: block;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .close::before {
     content: "\2716";
-    color: var(--link-color);
+    color: var(--secondary-color);
     font-size: 2em;
     font-weight: 700;
 }
@@ -79,9 +81,7 @@ h1, h2, h3, h4, h5, h6{
 p{
     font-family: var(--paragraph-font);
 }
-h2{
-    color: var(--accent3-color);
-}
+
 ul{
     list-style-type: none;
 }
