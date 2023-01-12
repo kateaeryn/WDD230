@@ -1,28 +1,80 @@
+:root{
+    --primary-color: #6e6449;
+    --secondary-color: #DCB499;
+    --link-color: #E6DCD3;
+    --tertiary-color: whitesmoke;
+    --card-color: whitesmoke;
+    --text-color: black;
+}
+.darkmode{
+    --primary-color: #303636;
+    --link-color: #202C39;
+    --secondary-color: #434c4c;
+    --text-color: whitesmoke;
+    --tertiary-color: #303636;
+    --card-color: #434C4C;
+}
 body{
     background-color: #E6DCD3;
     font-Family: 'Anybody', cursive;
+   
 }
 
 nav{
+    padding: 1em;
+    background-color: #6e6449;    
     display: flex;
-    background-color: #74694D;
-    align-items: center;
     justify-content: center;
-    gap: .5em;
-    flex-direction: column;
-    font-size: 1.5em;
-    padding: .5em;
-}
-img{
-    
-    margin-top: 1em;
-}
-a.nav-link{
-    color: #E6DCD3;
 }
 
-svg{
+svg {
+    display: block;
     fill: #E6DCD3;
+    
+}
+ul.navbar {
+    padding: 0;
+    text-align: center;
+   
+}
+li.hamburger{
+    display: flex;
+    justify-content: center;
+   
+}
+.nav-menu li a{
+    display: block;
+    align-items: center;
+    
+}
+
+a.nav-link{
+    color:#E6DCD3;
+    font-size: 1.5em;
+    margin: .35em;
+}
+li a.nav-link{
+    display: none;
+}
+
+ li a.nav-link.open{
+    display: block;
+ }
+ .close::before{
+    content: "\2716";
+    color:var(--link-color);
+    font-size: 2em;
+    font-weight: 700;
+ }
+.card  a:link{
+    color: var(--text-color);
+}
+.card  a:visited {
+    color: var(--text-color);
+}
+
+img{   
+    margin-top: 1em;
 }
 header{
    text-align: center;
@@ -33,8 +85,10 @@ header{
 
 main{
     max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    padding-bottom: 1em;
+    background-color: var(--link-color);
+    color: var(--text-color);
     
 }
 h2{
@@ -43,14 +97,13 @@ h2{
     text-align: center;
 }
 
-
-ul{
+ul {
     list-style-type: none;
     
 }
 h3{
-    background-color: #74694D;
-    color:#E6DCD3;
+    background-color: var(--primary-color);
+    color: whitesmoke;
     font-size: 1.5em;
     padding: 1em;
     margin-top: 0;
@@ -65,7 +118,7 @@ h3{
     line-height: 1.5em;
     margin: 1em;
     padding-bottom: 1em;
-    background-color: whitesmoke;
+    background-color: var(--card-color);
 }
 #project-link{
     padding-left: 2em;
@@ -75,8 +128,8 @@ h3{
 }
 footer{
     text-align: center;
-    background-color: #74694D;
+    background-color: #6e6449;
     font-size: 18px;
-    color: #E6DCD3;
+    color:whitesmoke;
     line-height: 1.5em;
 }

@@ -22,13 +22,24 @@
 </head>
 <body>
      <nav> 
-        <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48">
-            <path d="M6 36v-3h36v3Zm0-10.5v-3h36v3ZM6 15v-3h36v3Z" /></svg>
-        <a class ="nav-link" href="https://www.linkedin.com/">Linked In</a>
-        <a class="nav-link" href="https://www.byui.edu/">BYU Idaho</a>
-    
+       
+      <ul class="navbar">
+        <li class="hamburger">
+            <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48">
+                <path d="M6 36v-3h36v3Zm0-10.5v-3h36v3ZM6 15v-3h36v3Z" />
+            </svg>
+        </li>
+        <li class="nav-menu">
+        <a class="nav-link" id="mode">Dark Mode</a></li>
+        <li class="nav-menu">
+            <a class ="nav-link"  href="https://www.linkedin.com/">Linked In</a></li>
+        <li class="nav-menu">
+            <a class="nav-link"  href="https://www.byui.edu/">BYU Idaho</a></li>
+        
+        </li>
+    </ul>
         </nav>
-    
+     <script src="scripts\hamburger.js"></script>
     <header>
         <img src="images/IMG_9332.jpeg" alt="Profile Picture" style="height: 10em;width:9em;  ">
         <h1 >Kate Christensen</h1>
@@ -67,5 +78,6 @@
         <p class="highlight" id="lastModified">Last modified: </p>
     </footer>
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/darkmode.js"></script>
 </body>
 </html>
