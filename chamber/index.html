@@ -14,16 +14,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Roboto:wght@300&display=swap"
         rel="stylesheet">
-    <link rel="icon" href="images/myicon.ico" type="image">
+    <link rel="icon" href="images/cactusicon.ico" type="image">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta property="og:title" content="Gilbert Chamber of Commerce">
     <meta property="og:type" content="wdd230 project website">
-    <meta property="og:image" content="">
+    <meta property="og:image" content="https://www.discovergilbert.com/wp-content/uploads/2020/06/Gilbert-Zoom-1.png">
     <meta property="og:url" content="">
     <meta name="twitter:card" content="summary_large_image">
 </head>
 <body>
-    <nav>
-<ul class="navbar">
+    <nav class="navigation">
+       
+
+    <ul class="navbar">
     <li class="hamburger">
         <svg xmlns="http://www.w3.org/2000/svg" height="48" width="48">
             <path d="M6 36v-3h36v3Zm0-10.5v-3h36v3ZM6 15v-3h36v3Z" />
@@ -43,57 +46,65 @@
     </li>
     
 </ul>
-
+ <div class="social-media">
+        <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+        <a href="https://www.linkedin.com/" class="fa fa-linkedin"></a>
+        </div>
     </nav> 
     <script src="scripts/hamburger.js"></script>
     <header>
-        <h2>Gilbert</h2>
-        <h3>Chamber of Commerce</h3>
-        
+        <h1>Gilbert</h1> 
+        <h2>Chamber of Commerce</h2>
+         
     </header>
     <main>
         <div class="hero">
-            <img src="">
+            <img alt="gilbert mural" class="responsive" src="https://www.discovergilbert.com/wp-content/uploads/2020/06/Gilbert-Zoom-1.png">
         </div>
         <div class="button">
-            <button>Join Now!</button>
+            <a>Join Our Community Now!</a>
         </div>
-       <div class="cards">
-        <h2 id="title">CHamber</h2>
-        <section class="card" id="learning">
+       <div class="tier1">
+        <section class="card" id="events">
             <h3>Current Events</h3>
-            <ul>
-                <li> <a></a></li>
-                <li> <a></a></li>
-                <li> <a></a></li>
-                <li> <a></a></li>
-            </ul>
-        </section>
-        <section class="card" id="project">
-            <h3>Member Directory</h3>
-            <a id="" href="">
-               </a>
-        </section>
-        <section class="card" id="spotlights">
-            <h3>Spotlights</h3>
-        </section>
-    
-        <section class="card" id="info">
+            <h4>January</h4>
+            <p>Join us for a movie in the park January 18 at 6pm. Food Trucks and crafts stalls!</p>
+            <p>Grand Opening for Black Bear Diner January 27 at 8am, join us for Breakfast.</p>
+        </section> 
+         <section class="card" id="info">
             <h3>Weather</h3>
-            <p id="weather">Weather</p>
-            <p id="visits">Page Visits</p>
+            <p id="weather">It's Not Hot Right Now.<br> It will be HOT in a few months.</p>
         </section>
+        </div>
+       
+        <div class="tier2">
+        
+        <section class="card" id="spotlights">
+            <h3>Palm Trees Hanging Low?</h3>
+              <p>Call your friendly Neighborhood Tree Trimmer!<br>  555-555-5555<br><a href="#">Website</a></p>    
+        </section>
+    <section class="card" id="spotlights">
+        <h3>Overrun with Scorpions?</h3>
+            <p> We can help! Just call Pest Control R Us<br>888-888-8888<br><a href="#">Website</a></p>
+    </section>
+      
         </div>
     </main>
    
 
     <footer>
-    <p>Gilbert Chamber of Commerce</p>
-        <p>address here </p>
-        <p>phone number and map link</p>
+    
+        <section class="foot1">
+        <p>Gilbert Chamber of Commerce<br>12345 Gilbert Road <br> Gilbert, Arizona 85297 </p>
         
-        <p id="copyright">Gilbert | Kate Christensen | WDD 230 Project</p>
+        
+        <p>info@gilbertchamber.org<br>444-444-4444<br><a href="#" >Map Location</a></p>
+        </section>
+        <section class="foot">
+        <p id="copyright"></p>
+        <p>Kate Christensen | WDD 230 Project</p>
     <p class="highlight" id="lastModified">Last modified: </p>
+    </section>
 <script src="scripts/getDates.js"></script>    
 </footer>
 </body>

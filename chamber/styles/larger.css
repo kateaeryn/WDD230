@@ -1,0 +1,75 @@
+@media only screen and (min-width: 600px) {
+
+
+li a.nav-link.open{
+    font-size: 2em;
+    padding-top: 0;
+}
+h1{
+    font-size: 4em;
+}
+header h3{
+font-size: 2em;
+}
+.button{
+    font-size: 300%;
+    max-width: 60%;
+    margin-bottom: 1em;
+}
+.tier1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 2em;
+}
+.tier2{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 2em;
+
+}
+.tier1 p{
+    line-height: 2em;;
+}
+.tier2 p{
+    line-height: 2em;
+}
+
+.card{
+    height: 18em;
+   
+}
+.card #events{
+    width: 60%;
+}
+.card #info{
+    width: 40%;
+}
+.card #info p{
+    line-height: 2em;
+}
+.card h3{
+    font-size: 2em;
+    line-height: 1em;
+}
+.card h4{
+    font-size: 1.5em;
+    padding: .5em;
+}
+.card p{
+    font-size: 1.25em;
+    
+}
+footer .foot1{
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+}
+footer .foot{
+    display: flex;
+    padding: 1em;
+    justify-content: right;
+}
+p#copyright{
+    text-align: right;
+}
+}
