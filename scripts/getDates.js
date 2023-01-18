@@ -5,3 +5,4 @@ document.querySelector("#copyright").innerHTML = `&copy;  ${date}  Kate Christen
 
 let modify = document.lastModified;
 document.querySelector("#lastModified").innerHTML = `Last modified: ${modify}`;
+
