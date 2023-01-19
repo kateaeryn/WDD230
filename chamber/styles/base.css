@@ -81,7 +81,7 @@ header{
     background-color: var(--primary-color);
     color: var(--secondary-color);
     text-align: center;
-    padding: .5em;
+    padding-bottom: .5em;
     font-size: 2em;
     
 }
@@ -182,4 +182,54 @@ footer p{
 }
 footer a{
     color: var(--secondary-color);
+}
+img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+img:hover {
+    box-shadow: 0 0 50px #333;
+}
+.discover p{
+    color: var(--secondary-color);
+    text-align: center;
+}
+.discover h3{
+    color: var(--secondary-color);
+    text-align: center;
+    font-weight: 400;
+}
+.discover{
+    background-color: var(--accent1-color);
+}
+.sidebar ul{
+    color: var(--secondary-color);
+    list-style-type: disc;
+    line-height: 1.5em;
+}
+.sidebar h2{
+    color: var(--secondary-color);
+    text-align: center;
+    font-weight: 400;
+}
+.sidebar{
+    padding-left: 1em;
+    background-color: var(--accent1-color);
+    padding-right: 1em;
+    padding-bottom: 1em;
+}
+.numbers{
+    margin-top: 0;
+    padding-top: 1em;
+}
+.label, .visits{
+    color: var(--secondary-color);
+    
+}
+.sidebar p{
+    padding-left: 1em;
+    border-top: solid;
+    border-color:  var(--secondary-color);
+    padding-top: 1em;
 }

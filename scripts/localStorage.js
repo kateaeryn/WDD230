@@ -1,5 +1,4 @@
 
-const todayDisplay = document.querySelector(".today");
 const visitsDisplay = document.querySelector(".visits");
 
 
@@ -17,6 +16,6 @@ numVisits++;
 
 localStorage.setItem("visits-ls", numVisits);
 
-todayDisplay.textContent = Date.now();
+
 
 

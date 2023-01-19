@@ -1,6 +1,5 @@
 @media only screen and (min-width: 600px) {
 
-
 li a.nav-link.open{
     font-size: 2em;
     padding-top: 0;
@@ -71,5 +70,37 @@ footer .foot{
 }
 p#copyright{
     text-align: right;
+}
+
+
+.sidebar{
+    grid-column: 1/2;
+    
+}
+.discover-body{
+    display: grid;
+    grid-template-columns: 15em 1fr;
+    grid-template-rows: auto auto 1fr auto;
+    height: 100vh;
+}
+.discover-body .navigation, header, footer{
+    grid-column: 1/4;
+}
+.history, .nature, .museum{
+    grid-column: 2/3;
+}
+.events,  .pools, .theater{
+    grid-column: 3/4;
+}
+.discover{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 1em;
+    padding-top: 1em;
+    padding-right: 1em;
+}
+.discover img{
+    width: 100%;
+    height: auto;
 }
 }
