@@ -27,7 +27,7 @@ font-size: 2em;
 
 }
 .tier1 p{
-    line-height: 2em;;
+    line-height: 2em;
 }
 .tier2 p{
     line-height: 2em;
@@ -37,14 +37,20 @@ font-size: 2em;
     height: 18em;
    
 }
-.card #events{
+#events.card{
     width: 60%;
 }
-.card #info{
+#info.card{
     width: 40%;
 }
-.card #info p{
+ .card #info p{
     line-height: 2em;
+}
+#business-one.card {
+    width: 50%;
+}
+#business-two.card{
+    width: 50%;
 }
 .card h3{
     font-size: 2em;
