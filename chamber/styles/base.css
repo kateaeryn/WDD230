@@ -1,13 +1,16 @@
 :root{
-     --primary-color: #006494;
+     --primary-color: #00547A;
     --secondary-color: #ffffff;
-    --accent1-color: #ee964B;
-    --accent2-color: #73956F;
-    --accent3-color: #7C6354;
-
+    --accent1-color: #e07145;
+    --accent2-color: #5a7557;
+    --accent3-color: #866b5b;
+    
     --heading-font: "DM Serif Display", serif;
     --paragraph-font: "Roboto", sans-serif;
 }
+
+/*coolors.co/00547a-ffffff-a85710-5a7557-866b5b*/
+/*https: //coolors.co/00547a-ffffff-e07415-5a7557-866b5b*/
 
 body{
    color: var(--accent3-color);
@@ -201,7 +204,7 @@ img:hover {
     font-weight: 400;
 }
 .discover{
-    background-color: var(--accent1-color);
+    background-color: var(--accent2-color);
 }
 .sidebar ul{
     color: var(--secondary-color);
@@ -215,7 +218,7 @@ img:hover {
 }
 .sidebar{
     padding-left: 1em;
-    background-color: var(--accent1-color);
+    background-color: var(--accent2-color);
     padding-right: 1em;
     padding-bottom: 1em;
 }

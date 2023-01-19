@@ -99,9 +99,7 @@ p#copyright{
     padding-top: 1em;
     padding-right: 1em;
 }
-.discover img{
-    height: 300px;
-}
+
 }
 @media only screen and (min-width: 1400px) {
     .discover img{
