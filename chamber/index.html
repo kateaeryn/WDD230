@@ -59,7 +59,12 @@
     </header>
     <main>
         <div class="hero">
-            <img alt="gilbert mural" class="responsive" src="https://www.discovergilbert.com/wp-content/uploads/2020/06/Gilbert-Zoom-1.png">
+            <picture>
+                <source media="(max-width: 600px)" srcset="images/gilbert-mural-small.webp">
+                <source media="(max-width: 960px)" srcset="images/gilbert-mural-medium.webp">
+                 <img alt="gilbert mural" class="responsive" src="images/gilbert-mural.webp">
+            </picture>
+            
         </div>
         <div class="button">
             <a>Join Our Community Now!</a>
