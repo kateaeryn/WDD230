@@ -1,0 +1,64 @@
+
+:root {
+    --main: #3D4931;
+    --second: #B8C6A9;
+    --light: #FFFCFF;
+    --shade: #EBEFE7;
+    --check: #824C71;
+}
+table{
+    margin: 3em auto;
+    border: thin solid var(--main);
+    box-shadow: 0 0 7px var(--second);
+    border-collapse: collapse;
+    font-size: 2em;
+}
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    color: var(--main);
+    font-size: .85rem;
+}
+th, td{
+    padding: .75em;
+    text-align: center;
+}
+.title{
+    font-size: 1em;
+}
+thead{
+    border-bottom: solid 1px;
+    border-color: var(--main);
+}
+tbody tr:nth-child(2){
+    border: solid 1px;
+    border-color: var(--main);
+}
+tbody td:nth-child(2){
+    border: solid 1px;
+    border-color:var(--main);
+}
+tbody td:nth-child(4){
+    border-left: solid 1px;
+    border-color: var(--main);
+}
+thead tr:first-child{
+    background-color: var(--main);
+    color: var(--light);
+}
+thead tr th{
+    background-color: var(--main);
+}
+
+thead th:nth-child(2), thead th:nth-child(3), thead th:nth-child(4){
+    background-color: var(--second);
+}
+tbody tr:nth-child(even){
+    background-color: var(--shade);
+}
+tbody tr:first-child td:nth-child(n+2), tr:nth-child(2) td:nth-child(n+3), tr:nth-child(3) td:nth-child(n+4){
+    color: var(--check);
+}
+tbody tr:nth-child(2) td:nth-child(2), tr:nth-child(3) td:nth-child(2), td:nth-child(3){
+    color: red;
+}
