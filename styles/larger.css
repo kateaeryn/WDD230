@@ -96,7 +96,14 @@ iframe{
     
 }
 .map{
-   padding-left: 7em;
+   margin-left: 38%;
+   max-width: 600px;
+}
+.contact{
+    margin-left: 40%;
+}
+.table{
+    margin-left: 40%;
 }
 }
 @media only screen and (min-width: 1024px){
@@ -105,11 +112,15 @@ iframe{
         top: 4em;
         left: 6em;
     }
-iframe{
-    max-width: 800px;
-    
-}
+
 .map{
-    padding-left: 13em;
+    margin-left: 30%;
+    max-width: 800px;
+}
+.contact{
+    margin-left: 45%;
+}
+.table{
+    margin-left: 45%;
 }
 }
