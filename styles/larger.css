@@ -116,8 +116,8 @@ iframe{
     }
 
 .map{
-    margin-left: 16%;
-    max-width: 1000px;
+    margin-left: 30%;
+   
 }
 .contact{
     margin-left: 40%;
@@ -125,4 +125,11 @@ iframe{
 .table{
     margin-left: 40%;
 }
+}
+@media only screen and (min-width: 1200px){
+    .map{
+        margin-left: 35%;
+        
+
+    }
 }

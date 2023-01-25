@@ -161,7 +161,7 @@ iframe{
     text-align: center;
     max-width: 400px;
     margin: 0 0 1em 0;
-    padding-left: .5em;
+    
 }
 .hero {
     height: 18em;
@@ -238,7 +238,7 @@ input {
 #r {
     margin-bottom: 0;
     padding-bottom: 0;
-    width: 87%;
+    width: 82%;
     background-color: var(--primary-color);
     
 }
