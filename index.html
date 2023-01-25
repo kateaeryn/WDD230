@@ -92,10 +92,10 @@
             referrerpolicy="no-referrer-when-downgrade" ></iframe>
             </div>
     <div class="contact">
-        <h4>Contact Me</h4>
+        <h4>Contact Us</h4>
         <form method="get" >
-            <label>Name<input type="text" name="name" required></label>
-            <label>Email<input type="email" name="email" required></label>       
+            <label >Name<input type="text" id="name"name="name" required></label>
+            <label >Email<input type="email" id="email" name="email" required></label>       
             <label for="r">Page Rating:  <span id="rating"></span> </label>
                 <div class="rangecontainer">
                 <input type="range" min="1" max="5" id="r" name="r" list="five" required="required">
@@ -107,9 +107,9 @@
                 <span class="ratevalue">5</span>
                         </div>
                     </div> 
-            <label>Username<input type="password" name="username" id="password"   required></label>
+            <label >Username<input type="password"  name="username" id="password" pattern="^(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{5,12}$"  required></label>
             <label>Re-enter Username<input type="password" name="username" id="confirm_password"  required></label>
-            <label><button type="submit" id="submit_button">Enter My Rating</button></label>    
+            <label><button type="button" id="submit_button">Rate My Page</button></label>    
         </form> 
     </div>
     <div class="table">
@@ -128,19 +128,19 @@
             
                 <tr>
                     <td>Name:</td>
-                    <td id="name"></td>
+                    <td id="table_name"></td>
                 </tr>
                 <tr>
                     <td>Email:</td>
-                    <td id="email"></td>
+                    <td id="table_email"></td>
                 </tr>
                 <tr>
                     <td>Rating:</td>
-                    <td id="rate"></td>
+                    <td id="table_rate"></td>
                 </tr>
                 <tr>
                     <td>Username:</td>
-                    <td id="username"></td>
+                    <td id="table_username"></td>
                 </tr>
             </tbody>
         

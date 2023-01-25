@@ -1,18 +1,26 @@
 
+document.getElementById('submit_button').addEventListener('click', publishToTable);
 
-document.querySelector('#submit_button').onclick = function () {
-  var fullName = document.getElementsByName('name');
-var email = document.getElementByName('email');
-var rate = document.getElementByName('r');
-var username = document.getElementByName('username');
-    console.log(fullName, email, rate, username);
-fullName = document.getElementById('name').value;
-email = document.getElementById('email').value;
-rate = document.getElementById('rate').value;
-username = document.getElementById('username').value;  
+function publishToTable() {
+    const fullname = document.getElementById('name').value;
+    const email = document.getElementById('email').value;
+    const rate = document.getElementById('rating').innerHTML;
+    const username = document.getElementById('password').value;
+    
 
-    return false;
-
-
-}
+       if (fullname && email && rate && username != ' '){
+            
+            const tableName = document.getElementById('table_name');
+            const tableEmail = document.getElementById('table_email');
+            const tableRate = document.getElementById('table_rate');
+            const tableUsername = document.getElementById('table_username');
+            tableName.innerText = fullname;
+            tableEmail.innerHTML = email;
+            tableRate.innerHTML = rate;
+            tableUsername.innerHTML = username;
+            document.querySelector('.table').style.display = "block";   
+    }
+    
+    
+    }
 

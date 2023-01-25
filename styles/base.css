@@ -201,7 +201,7 @@ iframe{
     width: 100%;
     max-width: 375px;
     margin: auto;
-    padding-bottom: .5em;
+    padding: .5em;
    
 }
 .contact h4{
@@ -238,7 +238,7 @@ input {
 #r {
     margin-bottom: 0;
     padding-bottom: 0;
-    width: 80%;
+    width: 87%;
     background-color: var(--primary-color);
     
 }
@@ -269,7 +269,9 @@ range{
    max-width: 350px;
    margin: 1em auto;
    padding: .5em;
+   display: none;
 }
+
 .title{
     font-weight: 700;
     text-align: center;
@@ -299,6 +301,9 @@ tbody{
 thead tr th{
     font-size: 1.5em;
     line-height: 2.5em;
+}
+thead tr th:first-of-type{
+    text-align: right;
 }
 tbody tr td{
     padding: .25em 0;

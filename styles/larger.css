@@ -101,9 +101,11 @@ iframe{
 }
 .contact{
     margin-left: 40%;
+    max-width: 400px;
 }
 .table{
     margin-left: 40%;
+    max-width: 400px;
 }
 }
 @media only screen and (min-width: 1024px){
@@ -114,13 +116,13 @@ iframe{
     }
 
 .map{
-    margin-left: 30%;
-    max-width: 800px;
+    margin-left: 16%;
+    max-width: 1000px;
 }
 .contact{
-    margin-left: 45%;
+    margin-left: 40%;
 }
 .table{
-    margin-left: 45%;
+    margin-left: 40%;
 }
 }
