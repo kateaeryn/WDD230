@@ -210,10 +210,6 @@ iframe{
     margin: 0;
     text-align: center;
 }
-form {
-    align-items: left;
-   
-}
 
 label {
     text-align: left;
@@ -259,7 +255,7 @@ range{
 #submit_button{
     padding: .5em;
     font-size: 1.5em;
-    color: var(--tertiary-color);
+    color: var(--text-color);
     background-color: var(--primary-color);
 }
 
