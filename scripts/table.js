@@ -24,3 +24,6 @@ function publishToTable() {
     
     }
 
+var form = document.getElementById('contact');
+function handleForm(event) { event.preventDefault(); } 
+form.addEventListener('submit', handleForm);

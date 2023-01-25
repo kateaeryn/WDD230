@@ -93,7 +93,7 @@
             </div>
     <div class="contact">
         <h4>Contact Us</h4>
-        <form method="get" >
+        <form id="contact" method="get" >
             <label >Name<input type="text" id="name"name="name" required></label>
             <label >Email<input type="email" id="email" name="email" required></label>       
             <label for="r">Page Rating:  <span id="rating"></span> </label>
@@ -109,7 +109,7 @@
                     </div> 
             <label >Username<input type="password"  name="username" id="password" pattern="^(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{5,12}$"  required></label>
             <label>Re-enter Username<input type="password" name="username" id="confirm_password"  required></label>
-            <label><button type="button" id="submit_button">Rate My Page</button></label>    
+            <label><button type="submit" id="submit_button">Rate My Page</button></label>    
         </form> 
     </div>
     <div class="table">
@@ -123,8 +123,7 @@
                 </tr>
             </thead>
               <tbody>      
-               
-            
+       
             
                 <tr>
                     <td>Name:</td>
