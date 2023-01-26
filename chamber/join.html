@@ -44,7 +44,7 @@
                 <a class="nav-link" href="">Directory</a>
             </li>
             <li class="nav-menu">
-                <a class="nav-link" href="">Join</a>
+                <a class="nav-link" href="https://kateaeryn.github.io/WDD230/chamber/join.html">Join</a>
             </li>
 
         </ul>
@@ -59,37 +59,102 @@
         <h2>Chamber of Commerce</h2>
 
     </header>
-    <main>
+    <main class="join">
+         <h3>Join Our Chamber</h3>
+         <div class="join_main">
+       <div class="form">
         <form method="get" action="thankyou.html" name="joinform">
            <fieldset>
             <legend>Contact Information</legend>
             <label>First Name*<input type="text" required name="fname"></label>
             <label>Last Name*<input type="text" required name="lname"> </label>
             <label>Position<input type="text" name="position" pattern="[a-zA-Z- ]{7,}"></label>
-            <label>Email<input type="email" name="email" required placeholder="example@email.com"></label>
-            <label>Phone<input type="tel" name="cellphone" required></label>
+            <label>Email*<input type="email" name="email" required placeholder="example@email.com"></label>
+            <label>Phone*<input type="tel" name="cellphone" required></label>
         </fieldset>   
         <fieldset>
             <legend>Business Information</legend>
-            <label>Business Name<input type="text" name="business" required></label>
+            <label>Name*<input type="text" name="business" required></label>
             <label>Membership Level
-                <select name="membership">
-                    <option value="">-Please Select- &#9662</option>
+                <select name="membership" class="dropdown" required>
+                    <option value="">-Please Select-</option>
                     <option value="NP">Non-Profit Membership</option>
                     <option value="bronze">Bronze Membership</option>
                     <option value="silver">Silver Membership</option>
                     <option value="gold">Gold Membership</option>
                 </select>
             </label>
-            <label>Describe your business:<input type="textarea" name="description"></label>
+            <label>Describe your business:
+            </label>
+            <textarea name="description"  rows="6" cols="35" id="description"></textarea>
             <input type="hidden" name="language" id="dateHidden">
-</fieldset> 
-        <button>
-            <input type="submit" name="joinchamber" class="submitButton">
-        </button>
-
-
+</fieldset>    
+            <input type="submit" name="joinchamber" value="Join My Chamber" class="submitButton">
         </form>
+    </div>
+        <div class="table_join">
+            <h3>Membership Levels</h3>
+            <table>
+            <thead>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col" class="col_label">Non-Profit</th>
+                    <th scope="col" class="col_label">Bronze</th>
+                    <th scope="col" class="col_label">Silver</th>
+                    <th scope="col" class="c0l_label">Gold</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Cost</td>
+                    <td>$0</td>
+                    <td>$</td>
+                    <td>$$</td>
+                    <td>$$$</td>
+                </tr>
+                <tr>
+                    <td>Event Discounts</td>
+                    <td>&#x2714</td>
+                    <td>&#x2714</td>
+                    <td>&#x2714</td>
+                    <td>&#x2714</td>
+                </tr>
+                <tr>
+                    <td>Spotlight Advertising</td>
+                    <td>&#10006</td>
+                    <td>&#x2714</td>
+                    <td>&#x2714</td>
+                    <td>&#x2714</td>
+                </tr>
+            <tr>
+                <td>Personalized Training</td>
+                <td>&#10006</td>
+                <td>&#10006</td>
+                <td>&#x2714</td>
+                <td>&#x2714</td>
+            </tr>
+            <tr>
+                <td>Special Events Access</td>
+                <td>&#10006</td>
+                <td>&#10006</td>
+                <td>&#10006</td>
+                <td>&#x2714</td>
+            </tr>
+            </tbody>
+        </table>
+        </div>
+        <div class="memextra">
+            <h3>Membership Details</h3>
+            <h4>Event Discounts</h4>
+            <p>We can offer discounts to many community events that will allow your small business to get out there and be seen by local community members.</p>
+            <h4>Spotlight Advertising</h4>
+            <p>Our main website has space for business spotlights to help you advertise your products and services to other Chamber members. This gives you a wide exposure to like minded people to facilitate networking amoung small busniesses.</p>
+            <h4>Personalized Training</h4>
+            <p>We offer personalized training to help you and your employees improve their specialzed and business related skills. We contract with a variety of Specialists and Professional Education Organizations to provide you a wide array of resources to help step up your business game.</p>
+            <h4>Special Events Access</h4>
+            <p>Our Chamber sets up multiple Special Events each year for our Gold Members to facilitate networking and build community between small business owners. You will have access to these exclusive events at the Gold Membership Level.</p>
+        </div>
+        </div>
     </main>
 
 

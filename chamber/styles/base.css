@@ -4,7 +4,7 @@
     --accent1-color: #e07145;
     --accent2-color: #5a7557;
     --accent3-color: #866b5b;
-    
+    --text-color: black;
     --heading-font: "DM Serif Display", serif;
     --paragraph-font: "Roboto", sans-serif;
 }
@@ -235,4 +235,116 @@ img:hover {
     border-top: solid;
     border-color:  var(--secondary-color);
     padding-top: 1em;
+}
+.join{
+    background-color: var(--accent1-color);
+    color: var(--text-color);
+    font-weight: 600;
+    padding-top: .5em;
+}
+.join h3{
+    text-align: center;
+    font-size: 2.75em;
+    margin: .5em 0;
+}
+form{
+    margin: auto;
+    width: 100%;
+    max-width: 350px;
+    background-color: var(--secondary-color);
+    padding: .25em;
+    border: 3px solid;
+    border-color: var(--accent3-color);
+}
+label{
+    text-align: left;
+    font-weight: 700;
+    font-size: 1em;
+    display: block;
+    padding-bottom: .25em;
+    padding-left: 1em;
+}
+input{
+    border: solid 1px;
+    border-color: var(--accent3-color);
+    padding-left: 1em;
+    line-height: 2.5em;
+    display: block;
+    margin-bottom: 1em;
+    font-weight: 700;
+}
+.dropdown{
+    display: block;
+    font-size: 1.25em;
+    margin-bottom: 1em;
+    border: solid 1px;
+    border-color: var(--accent3-color);
+}
+legend{
+    font-size: 2em;
+}
+.submitButton{
+    margin: 1em auto;
+    font-size: 2em;
+    font-weight: 500;
+    padding: .5em;
+    background-color: var(--accent2-color);
+    color: var(--secondary-color);
+    border-radius: 5px;
+    
+}
+textarea{
+   padding: .5em;
+   margin-left: 1em;
+    border: solid 1px;
+        border-color: var(--accent3-color);
+}
+.table_join{
+    border: 3px solid;
+    border-color: var(--accent3-color);
+    max-width: 350px;
+    width: 100%;
+    margin: 1em auto auto auto;
+    padding: .5em;
+    background-color: var(--secondary-color);
+}
+table{
+    margin: auto;
+    border-collapse: collapse;
+    width: 100%;
+    padding: 1em;
+}
+thead tr th{
+    font-size: 1em;
+    text-align: left;
+}
+tbody tr{
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    line-height: 1.5em;
+    font-size: .9em;
+}
+.memextra{
+    border: 3px solid;
+    border-color: var(--accent3-color);
+    background-color: var(--secondary-color);
+    margin: 1em auto;
+    padding: .5em;
+    width: 100%;
+    max-width: 350px;
+}
+.memextra h4{
+    margin: 0;
+}
+.thankyou{
+    background-color: var(--secondary-color);
+    text-align: center;
+
+}
+.thankyou h1{
+    margin-top: 1em;
+    font-size: 2em;
+}
+.thankyou p{
+    font-weight: 600;
 }
