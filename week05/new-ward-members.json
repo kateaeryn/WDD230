@@ -1,0 +1,33 @@
+{
+  "familyName" : "Christensen",
+  "moveDate" : "January 2023",
+  "noMembers" : "5",
+   "visited" : true,
+  "memberNames" : [
+    {
+      "name" : "David",
+      "age" : 45,
+      "gender" : "male" 
+    },
+    {
+      "name" : "Kate",
+      "age" : 42,
+      "gender" : "female"
+    },
+    {
+      "name" : "Peter",
+      "age" : 17,
+      "gender" : "male" 
+    },
+    {
+        "name" : "Luke",
+        "age" : 15,
+        "gender" : "male"
+    },
+    {
+        "name" : "Eliza",
+        "age" : 13,
+        "gender" : "female"
+    }
+  ]
+}
