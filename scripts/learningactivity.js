@@ -7,8 +7,8 @@ const giturl = "https://kateaeryn.github.io/WDD230/learningactivity.json"
 async function GetActivities() {
     const response = await fetch(giturl);
     const links = await response.json();
-    console.table(links);
-    displayLinks(links);
+    console.table(links.learning);
+    displayLinks(links.learning);
 }
 GetActivities();
 
