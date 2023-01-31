@@ -1,11 +1,10 @@
 
-const giturl = "https://kateaeryn.github.io/WDD230/learningactivity.json"
-
-
+const jsonurl = "https://kateaeryn.github.io/WDD230/learningactivity.json"
+const giturl = "https://kateaeryn.github.io/WDD230/"
 const card = document.querySelector('#learning');
 
 async function GetActivities() {
-    const response = await fetch(giturl);
+    const response = await fetch(jsonurl);
     const links = await response.json();
     console.log(links);
     displayLinks(links);
@@ -20,7 +19,7 @@ const displayLinks = (links) => {
         weekNo.innerHTML = `${week[0]}`;      
         section.appendChild(weekNo);
         for (i in week) {
-            assignment.innerHTML = `${week[i]}`;
+            assignment.innerHTML = `giturl + ${week[i]}`;
             section.appendChild(assignment);
         }
         card.appendChild(section);
