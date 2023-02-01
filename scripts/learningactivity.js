@@ -1,28 +1,73 @@
 
-const jsonurl = "https://kateaeryn.github.io/WDD230/learningactivity.json"
+const jsonurl = "/learningactivity.json"
 const giturl = "https://kateaeryn.github.io/WDD230/"
-const card = document.querySelector('#learning');
+const card = document.querySelector('.learningactivities');
 
 async function GetActivities() {
     const response = await fetch(jsonurl);
     const links = await response.json();
-    console.log(links);
     displayLinks(links);
+    
 }
 GetActivities();
 
+    
 const displayLinks = (links) => {
-    links.forEach((week) => {
-        let section = document.createElement('ul');
-        let weekNo = document.createElement('li');
-        let assignment = document.createElement('a');
-        weekNo.innerHTML = `${week[0]}`;      
-        section.appendChild(weekNo);
-        for (i in week) {
-            assignment.innerHTML = `giturl + ${week[i]}`;
-            section.appendChild(assignment);
-        }
-        card.appendChild(section);
-    });
-}
+    console.log(links);
+    const one = links['week 01'];
+    const two = links['week 02'];
+    const three = links['week 03'];
+    const four = links['week 04'];
+    const five = links['week 05'];
+            
+    let weekOne = document.createElement('li'); 
+    weekOne.append("Week 01: ");
+    one.forEach((link) => {
+        
+        let assignment = document.createElement('a');  
+        assignment.append(link.name);
+        assignment.href = `${link.link}`;
+        weekOne.appendChild(assignment);  
+        card.append(weekOne);
+    })
+    let weekTwo = document.createElement('li'); 
+    weekTwo.append("Week 02: ");
+        two.forEach((link) => {
+            let assignment = document.createElement('a');  
+            assignment.append(link.name);
+            assignment.href = `${link.link}`;
+            weekTwo.appendChild(assignment); 
+            card.append(weekTwo); 
+        })
+    let weekThree = document.createElement('li'); 
+    weekThree.append("Week 03: ");
+     three.forEach((link) => {
+        let assignment = document.createElement('a');  
+        assignment.append(link.name);
+        assignment.href = `${link.link}`;
+         weekThree.appendChild(assignment); 
+         card.append(weekThree); 
+     })
+    
+    let weekFour = document.createElement('li'); 
+    weekFour.append("Week 04: ");
+     four.forEach((link) => {
+        let assignment = document.createElement('a');  
+        assignment.append(link.name);
+        assignment.href = `${link.link}`;
+        weekFour.appendChild(assignment); 
+        card.append(weekFour); 
+     })
+    
+    
+    let weekFive = document.createElement('li'); 
+    weekFive.append("Week 05: ");
+     five.forEach((link) => {
+        let assignment = document.createElement('a');  
+        assignment.append(link.name);
+        assignment.href = `${link.link}`;
+         weekFive.appendChild(assignment); 
+         card.append(weekFive); 
+     })
+};
 

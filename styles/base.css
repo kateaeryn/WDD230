@@ -112,7 +112,8 @@ ul {
     
 }
 .card ul{
-    padding-right: .5em;
+    padding-left: 1em;
+   line-height: 2em;
 }
 h3{
     background-color: var(--primary-color);
@@ -136,7 +137,14 @@ h3{
     margin: 1em;
     padding-bottom: 1em;
     background-color: var(--card-color);
+    
 }
+#learning a + a{
+    margin-left: .5em;
+    border-left: 1px solid;
+    padding-left: .5em;
+}
+
 #project-link{
     padding-left: 2em;
 }

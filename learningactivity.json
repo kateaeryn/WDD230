@@ -1,13 +1,12 @@
 
 
 {
-    "week 01": ["week01/grail/holygrail.html", "week01/media/media-query.html","https://codepen.io/kateaeryn/pen/vYaKjYa"],
-    "week 02": ["week02/design.html", "https://codepen.io/kateaeryn/pen/XWBpLBO", "week02/bom.html"],
-    "week 03": ["landscape.webp", "week03/lazyload.html", "https://codepen.io/kateaeryn/pen/vYaepOb?editors=1100", "week03/bom.html"],
-    "week 04": ["https://codepen.io/kateaeryn/pen/LYBQJGW?editors=1100", "week04/tablebuild.html", "form-start/index.html"],
-    "week 05": ["https://codepen.io/kateaeryn/pen/poZOJqz", "week05/new-ward-members.json", "week05/prophets.html", "week05/weather.html"],
-    "week 06": [],
-    "week 07": []
+    "week 01": [{"name": "Holy Grail", "link": "https://kateaeryn.github.io/WDD230/week01/grail/holygrail.html"}, {"name": "Media-Query", "link": "https://kateaeryn.github.io/WDD230/week01/media/media-query.html"},{"name": "Javascript","link": "https://codepen.io/kateaeryn/pen/vYaKjYa"}],
+    "week 02": [{"name": "Design", "link": "https://kateaeryn.github.io/WDD230/week02/design.html"},{"name": "Responsive Menu", "link": "https://codepen.io/kateaeryn/pen/XWBpLBO"},{"name": "BOM", "link":"https://kateaeryn.github.io/WDD230/week02/bom.html"}],
+    "week 03": [{"name": "WebP", "link":"https://kateaeryn.github.io/WDD230/landscape.webp"}, {"name": "Lazy Load","link":"https://kateaeryn.github.io/WDD230/week03/lazyload.html"}, {"name": "Responsive Images", "link": "https://codepen.io/kateaeryn/pen/vYaepOb?editors=1100"}, {"name": "BOM", "link": "https://kateaeryn.github.io/WDD230/week03/bom.html"}],
+    "week 04": [{"name": "Psuedo CSS", "link": "https://codepen.io/kateaeryn/pen/LYBQJGW?editors=1100"}, {"name": "Combinators", "link": "week04/images/W3exercises.png"},{"name": "Tables", "link": "https://kateaeryn.github.io/WDD230/week04/tablebuild.html"}, {"name": "Forms", "link": "https://kateaeryn.github.io/WDD230/form-start/index.html"}],
+    "week 05": [{"name": "Psuedo Elements", "link": "https://codepen.io/kateaeryn/pen/poZOJqz"}, {"name": "JSON", "link": "https://kateaeryn.github.io/WDD230/week05/new-ward-members.json"}, {"name": "Prophets", "link": "https://kateaeryn.github.io/WDD230/week05/prophets.html"}, {"name": "Weather", "link": "https://kateaeryn.github.io/WDD230/week05/weather.html"}]
+    
 }
 
  
