@@ -1,5 +1,5 @@
 
-const jsonurl = "/learningactivity.json"
+const jsonurl = "https://kateaeryn.github.io/WDD230/learningactivity.json"
 const giturl = "https://kateaeryn.github.io/WDD230/"
 const card = document.querySelector('.learningactivities');
 
