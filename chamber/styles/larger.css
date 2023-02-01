@@ -146,6 +146,24 @@ tbody tr{
 .thankyou p{
     font-size: 1.5em;
 }
+.directory .cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.list section {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr;
+    max-width: 960px;
+    width: 100%;
+    height: auto;
+
+}
+.list .cards{
+    display: block;
+  
+}
 }
 @media only screen and (min-width: 1400px) {
     .discover img{
@@ -156,5 +174,10 @@ form{
 }
 .table_join, .memextra{
     margin-left: 5%;
+}
+.list section{
+    max-width: 1350px;
+    width: 100%;
+    height: auto;
 }
 }

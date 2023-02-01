@@ -5,8 +5,10 @@
     --accent2-color: #5a7557;
     --accent3-color: #866b5b;
     --text-color: black;
+    --table-color: #EAEDE8;
     --heading-font: "DM Serif Display", serif;
     --paragraph-font: "Roboto", sans-serif;
+
 }
 
 /*coolors.co/00547a-ffffff-a85710-5a7557-866b5b*/
@@ -350,4 +352,83 @@ tbody tr td:nth-child(2), td:nth-child(3), td:nth-child(4), td:nth-child(5){
 }
 .thankyou p{
     font-weight: 600;
+}
+.directory{
+    padding-top: 1em;
+}
+
+.directory section{
+    display: flex;
+    flex-direction: column;
+    margin: 1em auto;
+    background-color: var(--secondary-color);
+    border: 3px solid;
+    border-color: var(--accent2-color);
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+    color: var(--text-color);
+    padding: .75em;
+    text-align: center;
+}
+.directory section:nth-of-type(3) img{
+    background-color: var(--primary-color);
+}
+.directory section:nth-of-type(4) img{
+    background-color: var(--primary-color);
+}   
+.directory section:nth-of-type(7) img{
+    background-color: var(--primary-color);
+}
+.directory section img{
+    padding: .25em;
+    max-width: 325px;
+    width: 100%;
+    height: auto;
+    align-self: center;
+}
+.directory section h2,p{
+    margin: 0;
+    line-height: 1.5em;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+}
+.list section{
+    border: none;
+    margin: 0 auto;
+    text-align: left;
+    
+}
+.list section:nth-child(even){
+    background-color: var(--table-color);
+}
+.list section img{
+    display: none;
+}
+.togglemenu {
+    
+    margin: auto;
+    text-align: center;
+    padding: .5em;
+}
+.togglemenu button{
+    background-color: var(--
+    --secondary-color);
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.togglemenu svg{
+    width: 3em;
+    height: 3em;
+}
+#grid svg path{
+    fill: var(--primary-color);
+    
+}
+#list-2 svg path{
+    fill: var(--primary-color);
+    display: block;
+    height: 5em;
 }

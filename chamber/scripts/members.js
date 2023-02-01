@@ -3,37 +3,43 @@ const url = 'https://kateaeryn.github.io/WDD230/chamber/data/members.json';
 
 const cards = document.querySelector('.cards');
 
-async function GetProphetData() {
+async function GetMemberData() {
     const response = await fetch(url);
     const data = await response.json();
     console.table(data.members);
-    displayProphets(data.members);
+    displayMembers(data.members);
 }
-GetProphetData();
+GetMemberData();
 
-/*const displayProphets = (prophets) => {
-    prophets.forEach((prophet) => {
+const displayMembers = (members) => {
+    members.forEach((member) => {
         let card = document.createElement('section');
         let fullName = document.createElement('h2');
-        let portrait = document.createElement('img');
-        let birth = document.createElement('p');
-        let place = document.createElement('p');
+        let icon = document.createElement('img');
+        let address = document.createElement('p');
+        let phone = document.createElement('p');
+        let website = document.createElement('a');
+        
 
-        fullName.textContent = `${prophet.name} ${prophet.lastname}`;
-        birth.textContent = `Date of Birth: ${prophet.birthdate}`;
-        place.textContent = `Place of Birth: ${prophet.birthplace}`;
+        fullName.textContent = `${member.name}`;
+        address.textContent = `${member.address}`;
+        phone.textContent = `${member.phone}`;
+        website.innerHTML = `${member.url}`;
+        website.setAttribute('href', `${member.url}`);
+        
+        icon.setAttribute('src', member.icon);
+        icon.setAttribute('alt', `${member.name}`);
+        icon.setAttribute('loading', 'lazy');
+        icon.setAttribute('width', '200');
+        icon.setAttribute('height', '100');
 
-        portrait.setAttribute('src', prophet.imageurl);
-        portrait.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname} - `);
-        portrait.setAttribute('loading', 'lazy');
-        portrait.setAttribute('width', '400');
-        portrait.setAttribute('height', '500');
-
+        card.appendChild(icon);
         card.appendChild(fullName);
-        card.appendChild(birth);
-        card.appendChild(place);
-        card.appendChild(portrait);
+        card.appendChild(address);
+        card.appendChild(phone);
+        card.appendChild(website);
+        
 
         cards.appendChild(card);
     });
-}*/
+}
