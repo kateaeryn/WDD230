@@ -11,8 +11,8 @@ header h3{
 font-size: 2em;
 }
 .button{
-    font-size: 300%;
-    max-width: 60%;
+    font-size: 200%;
+    max-width: 40%;
     margin-bottom: 1em;
 }
 .tier1{
@@ -57,7 +57,7 @@ font-size: 2em;
     line-height: 1em;
 }
 .card h4{
-    font-size: 1.5em;
+    font-size: 2em;
     padding: .5em;
 }
 .card p{
@@ -166,8 +166,23 @@ tbody tr{
 }
 }
 @media only screen and (min-width: 1400px) {
+    nav{
+        padding: .5em;
+    }
+    
     .discover img{
         height: 450px;
+    }
+    .responsive{
+        width: 75%;
+        height: auto;
+    }
+    .hero {
+        text-align: center;
+    }
+    .button{
+        font-size: 300%;
+        max-width: 45%;
     }
 form{
     margin-right: 5%;
