@@ -48,6 +48,20 @@
     "url": "asendo.com",
     "icon": "https://www.aendo.com/files/2016/02/practiceLogo.png",
     "membership": "Silver" 
+},
+{"name": "Arborcraft Tree Service",
+"address": "10121 Ampere Ave, Mesa AZ 85212",
+"phone": "480-999-0575",
+"url": "arborcraftaz.com",
+"icon": "https://arborcraftaz.com/wp-content/uploads/2021/08/Arborcraft-Tree-Service-Logo-White-1.png",
+"membership": "Gold"
+},
+{"name": "Canopy Pest Control",
+"address": "36573 N Takota Trail, San Tan Valley AZ 85140",
+"phone": "480-380-9374",
+"url": "canopypestcontrol.com",
+"icon": "https://cdn.branchcms.com/4ozXzG7ZBA-1570/images/layout/canopy-pest-control-site-logo-color-horizontal.png",
+"membership": "Silver"
 }
 ]
 }
