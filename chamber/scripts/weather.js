@@ -17,7 +17,6 @@ async function apiFetch() {
         const response = await fetch(url);
         if (response.ok) {
             const data = await response.json();
-            console.log(data);
             displayResults(data);
         } else {
             throw Error(response.text);
@@ -43,7 +42,6 @@ async function apiForecast() {
         const response = await fetch(forecasturl);
         if (response.ok) {
             const data = await response.json();
-            console.log(data);
             displayForecast(data);
         } else {
             throw Error(response.text);
