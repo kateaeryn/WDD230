@@ -6,6 +6,7 @@
     --accent3-color: #866b5b;
     --text-color: black;
     --table-color: #EAEDE8;
+    --accent4-color: #BDA99E;
     --heading-font: "DM Serif Display", serif;
     --paragraph-font: "Roboto", sans-serif;
 
@@ -175,6 +176,37 @@ color: var(--secondary-color);
     text-align: center;
 }
 .card a{
+    color: var(--accent3-color);
+}
+.tier2 section {
+    border: solid var(--accent3-color);
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 1.5em;
+    margin: 1em 1em 0 1em;
+    padding-bottom: 1em;
+    background-color: var(--secondary-color);
+    
+}
+
+.tier2 section h3 {
+    background-color: var(--accent4-color);
+    color: var(--secondary-color);
+    text-align: left;
+    font-weight: 200;
+    font-size: 1.5em;
+    margin: 0;
+    padding: .5em;
+}
+
+
+.tier2 section p {
+    padding: .5em;
+    margin: 0;
+    text-align: center;
+}
+
+.tier2 section a {
     color: var(--accent3-color);
 }
 .title{
@@ -445,6 +477,9 @@ tbody tr td:nth-child(2), td:nth-child(3), td:nth-child(4), td:nth-child(5){
     background-color: var(--primary-color);
 }   
 .directory section:nth-of-type(7) img{
+    background-color: var(--primary-color);
+}
+.directory section:nth-of-type(8) img{
     background-color: var(--primary-color);
 }
 .directory section img{
