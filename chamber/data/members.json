@@ -3,8 +3,8 @@
     {"name": "Apex Turf",
     "address": "4015 S. Arizona Ave, Chandler AZ 85296",
     "phone": "480-813-2235",
-    "email": "",
-    "tag": "",
+    "email": "Quotes@apexturf.com",
+    "tag": "We serve the entire East Valley",
     "url": "apexturfaz.com",
     "icon": "https://img1.wsimg.com/isteam/ip/aeb8f3a5-36f3-46b6-a6a9-2e58bc24001e/apexturf3-final.png/:/rs=w:285,h:48,cg:true,m/cr=w:285,h:48/qt=q:95",
     "membership": "Bronze"
@@ -12,6 +12,8 @@
 {"name": "Market Street Pet Depot",
     "address": "2979 S Market Street, Gilbert AZ 85297",
     "phone": "480-246-7866",
+    "email": "marketstreet@petdepot.com",
+    "tag": "The Natural Pet Food Headquarters",
     "url": "marketstreetpetdepot",
     "icon": "https://i0.wp.com/marketstreetpetdepot.com/wp-content/uploads/sites/5/2020/09/cropped-Market_Street_horizontal_logo-1.jpg?resize=250%2C81&ssl=1",
     "membership": "Gold"
@@ -19,6 +21,8 @@
 {"name": "Realty One Group",
     "address": "3230 S. Val Vista Drive, Suite #114, Gilbert AZ 85298",
     "phone": "480-250-3857",
+    "email": "realty@realtyone.com",
+    "tag": "We are the Unbrokerage",
     "url": "sloatgroup.com",
     "icon": "https://cdn1.brivityidx.com/assets/images/uploads/6655/MHG-LOGO_whitenew1.png",
     "membership": "Silver" 
@@ -26,6 +30,8 @@
 {"name": "Interior Essentials",
     "address": "2757 San Tan Village Parkway, Gilbert AZ 85299",
     "phone": "480-562-7854",
+    "email": "trish@interioressentials.com",
+    "tag": "A One Stop Shop",
     "url": "interior-essentials.com",
     "icon": "https://www.interior-essentials.com/wp-content/uploads/2019/10/IE-Logo-Wh_Essen-Bk.png",
     "membership": "Bronze" 
@@ -33,6 +39,8 @@
 {"name": "Someburros",
     "address": "2597 S. Market St, Gilbert AZ 85567",
     "phone": "602-564-1257",
+    "email": "manager@someburros.com",
+    "tag": "Signature time tested recipes, lovingly prepared since 1986",
     "url": "someburros.com",
     "icon": "https://assets.website-files.com/62f2feca97171fae7ecb561b/62f58374364a0966d176a8d1_someburros-logo-color.svg",
     "membership": "Bronze" 
@@ -40,6 +48,8 @@
 {"name": "Golfland Sunsplash",
     "address": "155 W Hampton Ave, Mesa AZ 85210",
     "phone": "602-585-7921",
+    "email": "support@golfland.com",
+    "tag": "The Ultimate in Family Fun",
     "url": "countryclubgolf.com",
     "icon": "https://www.golfland.com/mesa2/wp-content/uploads/sites/21/2020/12/MesaWebLogo.png",
     "membership": "Gold"
@@ -47,6 +57,8 @@
 {"name": "Asari Endodontics",
     "address": "3303S Lindsay Road, Gilbert AZ 85297",
     "phone": "480-213-5762",
+    "email": "office@asariendo.com",
+    "tag": "Friendly, Professional Care",
     "url": "asendo.com",
     "icon": "https://www.aendo.com/files/2016/02/practiceLogo.png",
     "membership": "Silver" 
@@ -54,6 +66,8 @@
 {"name": "Arborcraft Tree Service",
 "address": "10121 Ampere Ave, Mesa AZ 85212",
 "phone": "480-999-0575",
+"email": "treeguys@arborcraft.com",
+"tag": "Honest, Professional and Affordable Tree Care Services",
 "url": "arborcraftaz.com",
 "icon": "https://arborcraftaz.com/wp-content/uploads/2021/08/Arborcraft-Tree-Service-Logo-White-1.png",
 "membership": "Gold"
@@ -61,6 +75,8 @@
 {"name": "Canopy Pest Control",
 "address": "36573 N Takota Trail, San Tan Valley AZ 85140",
 "phone": "480-380-9374",
+"email": "quotes@canopypest.com",
+"tag": "Reliable Pest Management",
 "url": "canopypestcontrol.com",
 "icon": "https://cdn.branchcms.com/4ozXzG7ZBA-1570/images/layout/canopy-pest-control-site-logo-color-horizontal.png",
 "membership": "Silver"

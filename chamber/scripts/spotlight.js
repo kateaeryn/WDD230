@@ -4,7 +4,7 @@ const memberUrl = 'https://kateaeryn.github.io/WDD230/chamber/data/members.json'
 const cards = document.querySelector('.tier2');
 const array = [];
 let newArray = [];
-let spotNumber = 3;
+let spotNumber = 4;
 var count = 0;
 
 async function GetMemberData() {
@@ -20,50 +20,40 @@ const displaySpotlight = (members) => {
         
         if (member.membership == "Gold" || member.membership == "Silver") {
             array.push(member);
-        }   
-        array.forEach((member) => {  
-            if (count < spotNumber) {    
-                let randoMember = array[Math.floor(Math.random() * array.length)];
-                if (!newArray.includes(randoMember)) {
-                    newArray.push(randoMember);
-                
-                    newArray.forEach((member) => {
-                        let card = document.createElement('section');
-                        let header = document.createElement('h3');
-                        let icon = document.createElement('img');
-                        let email = document.createElement('a');
-                        let phone = document.createElement('p');
-                        let website = document.createElement('a');
-                        let tagline = document.createElement('p');
-
-                        tagline.innerHTML = `${member.tag}`;
-                        email.innerHTML = `${member.email}`;
-                        phone.textContent = `${member.phone}`;
-                        website.innerHTML = `${member.url}`;
-                        website.setAttribute('href', `${member.url}`);
-                
-                        icon.setAttribute('src', member.icon);
-                        icon.setAttribute('alt', `${member.name}`);
-                        icon.setAttribute('loading', 'lazy');
-                        icon.setAttribute('width', '200');
-                        icon.setAttribute('height', '100');
-
-                        header.appendChild(icon);
-                        card.appendChild(header);
-                        card.appendChild(tagline);
-                        card.appendChild(email);
-                        card.appendChild(phone);
-                        card.appendChild(website);
-                        count++;
-                        cards.appendChild(card);
-                        
-                    })
-}
-            } 
-        } )
+            newArray = array.sort(() => 0.5 - Math.random()).slice(0, 3);
         }
-        
-        )  
-    };  
-        
-console.log(newArray);
+        return newArray;
+    })
+    newArray.forEach((index) => {
+        let card = document.createElement('section');
+        let header = document.createElement('h3');
+        let icon = document.createElement('img');
+        let email = document.createElement('a');
+        let phone = document.createElement('p');
+        let website = document.createElement('a');
+        let tagline = document.createElement('p');
+    
+        tagline.innerHTML = `${index.tag}`;
+        email.innerHTML = `${index.email}`;
+        phone.textContent = `${index.phone}`;
+        website.innerHTML = `${index.url}`;
+        website.setAttribute('href', `${index.url}`);
+                    
+        icon.setAttribute('src', index.icon);
+        icon.setAttribute('alt', `${index.name}`);
+        icon.setAttribute('loading', 'lazy');
+        icon.setAttribute('width', '200');
+        icon.setAttribute('height', '100');
+    
+        header.appendChild(icon);
+        card.appendChild(header);
+        card.appendChild(tagline);
+        card.appendChild(email);
+        card.appendChild(phone);
+        card.appendChild(website);
+                           
+        cards.appendChild(card);
+    }
+    ) 
+};      
+
