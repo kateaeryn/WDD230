@@ -61,7 +61,7 @@ function displayForecast(data) {
     const oneT = `${Math.round(data.list[0].main.temp)} &deg;F`;
     const twoT = `${Math.round(data.list[3].main.temp)} &deg;F`;
     const threeT = `${Math.round(data.list[11].main.temp)} &deg;F`;
-    console.log(data);
+   
     forecast.innerHTML = firstDay;
     forecast2.innerHTML = secondDay;
     forecast3.innerHTML = thirdDay;
