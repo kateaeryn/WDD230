@@ -33,7 +33,7 @@ function displayResults(data) {
     let desc = data.weather[0].description;
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
-   
+    
     captionDesc.textContent = ` ${desc}`;
 }
 
@@ -55,13 +55,13 @@ apiForecast();
 const weekDay = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
 function displayForecast(data) {
-    const firstDay = weekDay[new Date(`${data.list[0].dt_txt}`).getDay()]; 
-    const secondDay = weekDay[new Date(`${data.list[3].dt_txt}`).getDay()]; 
-    const thirdDay = weekDay[new Date(`${data.list[11].dt_txt}`).getDay()]; 
+    const firstDay = weekDay[new Date(`${data.list[2].dt_txt}`).getDay()]; 
+    const secondDay = weekDay[new Date(`${data.list[10].dt_txt}`).getDay()]; 
+    const thirdDay = weekDay[new Date(`${data.list[18].dt_txt}`).getDay()]; 
     const oneT = `${Math.round(data.list[0].main.temp)} &deg;F`;
     const twoT = `${Math.round(data.list[3].main.temp)} &deg;F`;
     const threeT = `${Math.round(data.list[11].main.temp)} &deg;F`;
-    
+    console.log(data);
     forecast.innerHTML = firstDay;
     forecast2.innerHTML = secondDay;
     forecast3.innerHTML = thirdDay;
