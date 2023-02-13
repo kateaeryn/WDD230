@@ -138,6 +138,7 @@ font-weight: bold;
 font-size: 175%; 
 line-height: 3em; 
 border-radius: 20px; 
+border: 5px solid var(--secondary-color);
 text-decoration: none;
 margin: .5em auto auto  auto;
 }
@@ -410,10 +411,9 @@ legend{
     
 }
 textarea{
-   padding: .5em;
-   margin-left: 1em;
+    padding: .5em;
     border: solid 1px;
-        border-color: var(--accent3-color);
+    border-color: var(--accent3-color);
 }
 .table_join{
     border: 3px solid;
